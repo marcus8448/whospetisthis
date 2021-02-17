@@ -7,7 +7,6 @@ import net.minecraft.command.argument.EntityArgumentType;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.TameableEntity;
 import net.minecraft.server.command.CommandManager;
-import net.minecraft.server.integrated.IntegratedServer;
 import net.minecraft.text.LiteralText;
 
 import java.util.UUID;
