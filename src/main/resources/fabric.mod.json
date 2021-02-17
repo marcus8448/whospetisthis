@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "whospetisthis",
+  "version": "${version}",
+
+  "name": "Who's Pet Is This",
+  "description": "Adds a command to show who's owns a certain pet.",
+  "authors": [
+    "marcus8448"
+  ],
+  "contact": {
+    "homepage": "https://marcus8448.github.io/",
+    "sources": "https://github.com/marcus8448/whospetisthis"
+  },
+
+  "license": "LGPL-3-or-later",
+  "icon": "assets/whospetisthis/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.marcus8448.mods.whospetisthis.WhosPetIsThis"
+    ]
+  },
+  "mixins": [
+    "whospetisthis.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "minecraft": ">=1.16"
+  }
+}
